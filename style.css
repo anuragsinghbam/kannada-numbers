@@ -1,0 +1,60 @@
+.kannada-numbers {
+  max-width: 600px;
+  margin-inline: auto;
+  overflow-x: scroll;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+audio {
+  margin-inline: auto;
+}
+
+th {
+  background: #003333;
+  color: #ff0;
+  text-align: left;
+  padding: 4px 8px;
+}
+
+td {
+  border: 1px solid #ddd;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+th:first-child,
+td:first-child {
+  width: 20%;
+}
+
+th:last-child,
+td:last-child {
+  display: none;
+}
+
+.show-ordinal th:last-child,
+.show-ordinal td:last-child {
+  display: table-cell;
+}
+
+.numbers-audio {
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+}
+
+.transliteration {
+  display: none;
+}
+
+.transliteration.show {
+  display: inline;
+}
+
+.zero {
+  display: none;
+}
